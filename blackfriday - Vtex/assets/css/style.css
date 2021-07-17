@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat" ;
+}
+
+.logo img {
+    max-width: 50px;
+}
+
+.container {
+    background-color: #0F0F0F;
+    
+}
+
+.container img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blackfriday {
+    padding-left: 25%;
+}
+
+.blackfriday img {
+    max-width: 100%;
+}
+
+.card-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.card-games img {
+    max-width: 90%;
+}
+
+.btn {
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 25%;
+    background-color: #E40210;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #720025;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.form {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding-left: 33%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.form h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.form-email input {
+    width: 300px;
+    height: 25px;
+}
+
+.form-email button {
+    height: 28px;
+}
+
+.form-email a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.form-email {
+    padding-left: 35px;
+    padding-top: 8px;
+}
